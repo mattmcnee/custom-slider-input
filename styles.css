@@ -1,0 +1,41 @@
+/* Adjust the styles to customize the appearance of the slider */
+.slider-container{
+  display: flex;
+  align-items: center;
+}
+
+.slider-container .slider {
+  width: 300px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.slider .slider-track {
+  height: 100%;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  width: 0;
+}
+
+.slider .slider-thumb {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: -2%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+.slider-container .slider-value {
+  font-size: 16px;
+  margin-left: 15px;
+}
